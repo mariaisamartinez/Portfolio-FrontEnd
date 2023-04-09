@@ -1,0 +1,12 @@
+
+.container-fluid {
+    background-color: lavender;
+}
+.navbar {
+    background-color: aquamarine;
+}
+#encabezado{
+    background-color: #CEF6EC;
+    height: 300px;
+    width: fit-content;
+}
