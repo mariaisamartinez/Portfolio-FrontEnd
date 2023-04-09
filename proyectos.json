@@ -10,21 +10,21 @@
 			"isActive": true,
 			"fechaCreacion": 2022,
 			"tema": "Tema1",
-			"nombre": "Proyecto1",
+			"nombre": "Proyecto1"
 		},
 		{
 			"numeroProyecto": 2,
 			"isActive": true,
 			"fechaCreacion": 2022,
 			"tema": "Tema2",
-			"nombre": "Proyecto2",
+			"nombre": "Proyecto2"
 		},
 		{
 			"numeroProyecto": 3,
 			"isActive": true,
 			"fechaCreacion": 2022,
 			"tema": "Tema3",
-			"nombre": "Proyecto3",
+			"nombre": "Proyecto3"
 		}
     ]
 }
