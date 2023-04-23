@@ -1,0 +1,45 @@
+{
+	"name": "Maria Martinez",
+	"backImage": "https://www.labiznagadigital.es/wp-content/uploads/2019/11/contratar-desarrollo-web-profesional.jpg",
+	"position": "Full Stack Developer Jr.",
+	"company": {
+		"name": "Freelance",
+		"url": "#"
+	},
+	"ubication": {
+		"provincia": "Mendoza",
+		"url": "#"
+	},
+	"school": {
+		"name": "Universidad Tecnológica Nacional",
+		"url": "#"
+	},
+	"Argentina": "Mendoza",
+	"about": "Changing lifes",
+	"experience": [{
+		"position": "Backend Developer",
+		"company": "Pixar",
+		"mode": "Jornada parcial",
+		"start": "mar 2019",
+		"end": "actualidad",
+		"timeElapsed": "2 años y 6 meses"
+	}],
+	"education": [{
+			"school": "UTN",
+			"title": "Ingenieria",
+			"career": "Sistemas"
+		},
+		{
+			"school": "Otra institución",
+			"title": "Desarrollo",
+			"career": "Developer"
+		},
+		{
+			"school": "Cualquier institución",
+			"title": "Otro titulo de ejemplo",
+			"career": "Carrera de ejemplo"
+		}
+	]
+
+
+}
