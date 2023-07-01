@@ -10,7 +10,12 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { PortfolioService } from './servicios/portfolio.service';
+import { InterceptorService } from './servicios/interceptor.service';
 
 @NgModule({
   declarations: [
@@ -21,14 +26,19 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienciaComponent,
     EducacionComponent,
     HabilidadesComponent,
-    FooterComponent
+    FooterComponent,
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [PortfolioService, 
+   {provide: HTTP_INTERCEPTORS, useClass: InterceptorService, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
